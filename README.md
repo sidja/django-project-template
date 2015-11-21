@@ -7,7 +7,7 @@ Template to use when starting new Django 1.8 projects with PostgreSQL.
 Start a new project using this template:
 
 ```
-django-admin.py startproject --template=https://github.com/jcalazan/django-project-template/archive/latest.zip --extension=py,gitignore project_name
+django-admin.py startproject --template=https://github.com/sidja/django-project-template/archive/latest.zip --extension=py,gitignore project_name
 ```
 
 Install requirements via pip:

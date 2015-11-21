@@ -3,8 +3,18 @@
 <head>
     <title>{% block title %}{% endblock %}</title>
     <meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'style/base_style.css' %}">
+	<link rel="stylesheet" href="{% static 'style/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'style/custom.min.css' %}">
+	
+
 </head>
 <body>
+
+
+	 {%include 'includes/menu.html' %}
+
 
 <div id="container">
     {% block main %}

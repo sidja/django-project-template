@@ -41,6 +41,7 @@ INSTALLED_APPS = (
 
     # 3rd-party apps.
     'django_extensions',
+    
 
     # Project apps.
     #'{{ project_name }}.apps.',
